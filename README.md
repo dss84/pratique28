@@ -1,12 +1,62 @@
-# React + Vite
+# 📊 Calculadora de IMC - React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma aplicação web moderna e responsiva para calcular o Índice de Massa Corporal (IMC) desenvolvida com ReactJS.
 
-Currently, two official plugins are available:
+## 🚀 Demonstração
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Calculadora de IMC](https://img.shields.io/badge/Status-Concluído-brightgreen)
+![React](https://img.shields.io/badge/React-18.x-blue)
+![Vite](https://img.shields.io/badge/Vite-Latest-purple)
 
-## Expanding the ESLint configuration
+## 📋 Sobre o Projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Esta aplicação permite calcular o IMC de forma rápida e intuitiva, fornecendo:
+
+- Cálculo automático do IMC
+- Classificação baseada na tabela oficial da OMS
+- Interface moderna e responsiva
+- Validação de dados de entrada
+- Tabela de referência completa
+
+## ✨ Funcionalidades
+
+- ✅ **Formulário intuitivo** - Campos para altura (cm) e peso (kg)
+- ✅ **Cálculo automático** - IMC calculado em tempo real
+- ✅ **Classificação precisa** - Baseada nos padrões da OMS
+- ✅ **Validação de dados** - Verificação de campos obrigatórios
+- ✅ **Design responsivo** - Funciona em desktop, tablet e mobile
+- ✅ **Tabela de referência** - Classificações do IMC sempre visíveis
+- ✅ **Botão limpar** - Reset rápido do formulário
+
+## 🎯 Classificações do IMC
+
+| IMC | Classificação |
+|-----|---------------|
+| Menor que 18,5 | Abaixo do peso |
+| 18,5 - 24,9 | Peso normal |
+| 25,0 - 29,9 | Sobrepeso |
+| 30,0 - 34,9 | Obesidade grau I |
+| 35,0 - 39,9 | Obesidade grau II |
+| Maior que 40,0 | Obesidade grau III |
+
+## 🛠️ Tecnologias Utilizadas
+
+- **React 18** - Biblioteca JavaScript para interfaces
+- **Vite** - Build tool moderna e rápida
+- **CSS3** - Estilização com gradientes e animações
+- **JavaScript ES6+** - Funcionalidades modernas
+
+## 📦 Instalação e Execução
+
+### Pré-requisitos
+
+- Node.js (versão 16 ou superior)
+- npm ou yarn
+
+### Passos para executar
+
+1. **Clone o repositório**
+
+```bash
+git clone https://github.com/SEU_USUARIO/calculadora-imc-react.git
+cd calculadora-imc-react
